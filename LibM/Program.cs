@@ -16,7 +16,7 @@ namespace LibM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PL.FRM_ADD_DEPT());
+            Application.Run(new PL.FRM_VISITing());
         }
     }
 }

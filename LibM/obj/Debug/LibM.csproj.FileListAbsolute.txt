@@ -82,3 +82,9 @@ C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\ob
 C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.pdb
 C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.csprojAssemblyReference.cache
 C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_DEPT.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_CONTENT.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_SHELF.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_BOOKing.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_BORROWing.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_ADD_RETURN.resources
+C:\Users\khatib\Desktop\مشاريع مفتوحة المصدر\LibM\LibM\LibM\obj\Debug\LibM.PL.FRM_VISITing.resources

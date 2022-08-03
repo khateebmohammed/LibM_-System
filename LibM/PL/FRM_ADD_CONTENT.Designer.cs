@@ -35,6 +35,7 @@
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.label17 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txt_date = new Bunifu.Framework.UI.BunifuDatepicker();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -51,7 +52,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txt_Dept_Name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnadd = new Bunifu.Framework.UI.BunifuThinButton2();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -59,16 +62,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.btnadd = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.txt_date = new Bunifu.Framework.UI.BunifuDatepicker();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -92,19 +92,19 @@
             // numericUpDown3
             // 
             this.numericUpDown3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.numericUpDown3.Font = new System.Drawing.Font("beIN Black ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(482, 61);
+            this.numericUpDown3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown3.Location = new System.Drawing.Point(482, 69);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(257, 47);
+            this.numericUpDown3.Size = new System.Drawing.Size(257, 38);
             this.numericUpDown3.TabIndex = 41;
             // 
             // numericUpDown2
             // 
             this.numericUpDown2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.numericUpDown2.Font = new System.Drawing.Font("beIN Black ", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Location = new System.Drawing.Point(482, 145);
+            this.numericUpDown2.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown2.Location = new System.Drawing.Point(482, 141);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(257, 47);
+            this.numericUpDown2.Size = new System.Drawing.Size(257, 38);
             this.numericUpDown2.TabIndex = 40;
             // 
             // label17
@@ -156,6 +156,21 @@
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "إضافة مقتنى جديد";
+            // 
+            // txt_date
+            // 
+            this.txt_date.BackColor = System.Drawing.Color.SeaGreen;
+            this.txt_date.BorderRadius = 0;
+            this.txt_date.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_date.ForeColor = System.Drawing.Color.White;
+            this.txt_date.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.txt_date.FormatCustom = null;
+            this.txt_date.Location = new System.Drawing.Point(60, 61);
+            this.txt_date.Margin = new System.Windows.Forms.Padding(9, 18, 9, 18);
+            this.txt_date.Name = "txt_date";
+            this.txt_date.Size = new System.Drawing.Size(295, 47);
+            this.txt_date.TabIndex = 46;
+            this.txt_date.Value = new System.DateTime(2019, 10, 15, 19, 31, 37, 303);
             // 
             // label16
             // 
@@ -249,7 +264,6 @@
             this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
             this.textBox7.Size = new System.Drawing.Size(257, 40);
             this.textBox7.TabIndex = 29;
             // 
@@ -261,7 +275,6 @@
             this.textBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(295, 110);
             this.textBox6.TabIndex = 26;
             // 
@@ -273,7 +286,6 @@
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(257, 40);
             this.textBox4.TabIndex = 22;
             // 
@@ -285,7 +297,6 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(257, 40);
             this.textBox1.TabIndex = 16;
             // 
@@ -309,7 +320,6 @@
             this.txt_Dept_Descript.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_Dept_Descript.Multiline = true;
             this.txt_Dept_Descript.Name = "txt_Dept_Descript";
-            this.txt_Dept_Descript.ReadOnly = true;
             this.txt_Dept_Descript.Size = new System.Drawing.Size(257, 40);
             this.txt_Dept_Descript.TabIndex = 10;
             // 
@@ -333,7 +343,6 @@
             this.txt_Dept_Name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_Dept_Name.Multiline = true;
             this.txt_Dept_Name.Name = "txt_Dept_Name";
-            this.txt_Dept_Name.ReadOnly = true;
             this.txt_Dept_Name.Size = new System.Drawing.Size(257, 40);
             this.txt_Dept_Name.TabIndex = 8;
             // 
@@ -349,6 +358,20 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "اسم المقتنى";
             // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Image = global::LibM.Properties.Resources.delete_sign_64px;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(6, 16);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(40, 40);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 45;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            this.bunifuImageButton1.Click += new System.EventHandler(this.BunifuImageButton1_Click);
+            // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -361,6 +384,32 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1334, 738);
             this.panel1.TabIndex = 1;
+            // 
+            // btnadd
+            // 
+            this.btnadd.ActiveBorderThickness = 1;
+            this.btnadd.ActiveCornerRadius = 20;
+            this.btnadd.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.ActiveForecolor = System.Drawing.Color.White;
+            this.btnadd.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnadd.BackColor = System.Drawing.Color.White;
+            this.btnadd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnadd.BackgroundImage")));
+            this.btnadd.ButtonText = "اضافة";
+            this.btnadd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnadd.Font = new System.Drawing.Font("beIN Black ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnadd.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.IdleBorderThickness = 1;
+            this.btnadd.IdleCornerRadius = 25;
+            this.btnadd.IdleFillColor = System.Drawing.Color.White;
+            this.btnadd.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.btnadd.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.Location = new System.Drawing.Point(471, 624);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(6, 11, 6, 11);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(398, 81);
+            this.btnadd.TabIndex = 45;
+            this.btnadd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox2
             // 
@@ -389,7 +438,6 @@
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(257, 47);
             this.textBox3.TabIndex = 47;
             // 
@@ -413,7 +461,6 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(257, 47);
             this.textBox2.TabIndex = 45;
             // 
@@ -450,61 +497,6 @@
             this.label1.TabIndex = 46;
             this.label1.Text = "المسموح لهم بالاستعارة";
             // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Image = global::LibM.Properties.Resources.delete_sign_64px;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(6, 16);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 45;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            this.bunifuImageButton1.Click += new System.EventHandler(this.BunifuImageButton1_Click);
-            // 
-            // btnadd
-            // 
-            this.btnadd.ActiveBorderThickness = 1;
-            this.btnadd.ActiveCornerRadius = 20;
-            this.btnadd.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.ActiveForecolor = System.Drawing.Color.White;
-            this.btnadd.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnadd.BackColor = System.Drawing.Color.White;
-            this.btnadd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnadd.BackgroundImage")));
-            this.btnadd.ButtonText = "اضافة";
-            this.btnadd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnadd.Font = new System.Drawing.Font("beIN Black ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnadd.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.IdleBorderThickness = 1;
-            this.btnadd.IdleCornerRadius = 25;
-            this.btnadd.IdleFillColor = System.Drawing.Color.White;
-            this.btnadd.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.btnadd.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.Location = new System.Drawing.Point(471, 624);
-            this.btnadd.Margin = new System.Windows.Forms.Padding(6, 11, 6, 11);
-            this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(398, 81);
-            this.btnadd.TabIndex = 45;
-            this.btnadd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txt_date
-            // 
-            this.txt_date.BackColor = System.Drawing.Color.SeaGreen;
-            this.txt_date.BorderRadius = 0;
-            this.txt_date.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_date.ForeColor = System.Drawing.Color.White;
-            this.txt_date.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.txt_date.FormatCustom = null;
-            this.txt_date.Location = new System.Drawing.Point(60, 61);
-            this.txt_date.Margin = new System.Windows.Forms.Padding(9, 18, 9, 18);
-            this.txt_date.Name = "txt_date";
-            this.txt_date.Size = new System.Drawing.Size(295, 47);
-            this.txt_date.TabIndex = 46;
-            this.txt_date.Value = new System.DateTime(2019, 10, 15, 19, 31, 37, 303);
-            // 
             // FRM_ADD_CONTENT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -523,10 +515,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
