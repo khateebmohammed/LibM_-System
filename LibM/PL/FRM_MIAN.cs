@@ -825,7 +825,7 @@ namespace LibM.PL
 
         private void Button1_Click_2(object sender, EventArgs e)
         {
-            if (P_MB.Size.Width == 280)
+            if (P_MB.Size.Width == 250)
             {
                 P_MB.Width = 70;
                 //    button13.RightToLeft = RightToLeft.Yes;
@@ -874,7 +874,7 @@ namespace LibM.PL
             }
             else
             {
-                P_MB.Width = 280;
+                P_MB.Width = 250;
                 //    button13.RightToLeft = RightToLeft.No;
                 //    button14.RightToLeft = RightToLeft.No;
                 //    button15.RightToLeft = RightToLeft.No;

@@ -444,7 +444,7 @@
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(-52, 16);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(-94, 16);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
             this.bunifuThinButton22.Size = new System.Drawing.Size(248, 51);
@@ -471,7 +471,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(206, 16);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(164, 16);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(248, 51);
@@ -498,7 +498,7 @@
             this.btnadd.IdleFillColor = System.Drawing.Color.White;
             this.btnadd.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.btnadd.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.Location = new System.Drawing.Point(464, 16);
+            this.btnadd.Location = new System.Drawing.Point(422, 16);
             this.btnadd.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(248, 51);
@@ -511,7 +511,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(846, 557);
+            this.ClientSize = new System.Drawing.Size(909, 557);
             this.Controls.Add(this.bunifuThinButton22);
             this.Controls.Add(this.bunifuThinButton21);
             this.Controls.Add(this.btnadd);

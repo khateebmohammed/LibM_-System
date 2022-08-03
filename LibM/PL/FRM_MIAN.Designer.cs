@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_MIAN));
             this.P_TB = new System.Windows.Forms.Panel();
             this.bunifuImageButton3 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -146,7 +146,7 @@
             this.P_TB.Location = new System.Drawing.Point(0, 0);
             this.P_TB.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.P_TB.Name = "P_TB";
-            this.P_TB.Size = new System.Drawing.Size(931, 60);
+            this.P_TB.Size = new System.Drawing.Size(961, 60);
             this.P_TB.TabIndex = 1;
             this.P_TB.Paint += new System.Windows.Forms.PaintEventHandler(this.P_TB_Paint);
             // 
@@ -173,9 +173,9 @@
             this.Lb_Title.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.Lb_Title, BunifuAnimatorNS.DecorationType.None);
             this.Lb_Title.Font = new System.Drawing.Font("beIN Black ", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lb_Title.Location = new System.Drawing.Point(401, -2);
+            this.Lb_Title.Location = new System.Drawing.Point(416, -2);
             this.Lb_Title.Name = "Lb_Title";
-            this.Lb_Title.Size = new System.Drawing.Size(129, 80);
+            this.Lb_Title.Size = new System.Drawing.Size(126, 78);
             this.Lb_Title.TabIndex = 0;
             this.Lb_Title.Text = "الرئيسة";
             // 
@@ -297,10 +297,10 @@
             this.bunifuTransition1.SetDecoration(this.P_MB, BunifuAnimatorNS.DecorationType.None);
             this.P_MB.Dock = System.Windows.Forms.DockStyle.Right;
             this.P_MB.Font = new System.Drawing.Font("beIN Normal ", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.P_MB.Location = new System.Drawing.Point(931, 0);
+            this.P_MB.Location = new System.Drawing.Point(961, 0);
             this.P_MB.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.P_MB.Name = "P_MB";
-            this.P_MB.Size = new System.Drawing.Size(280, 829);
+            this.P_MB.Size = new System.Drawing.Size(250, 829);
             this.P_MB.TabIndex = 0;
             this.P_MB.Paint += new System.Windows.Forms.PaintEventHandler(this.P_MB_Paint);
             // 
@@ -316,7 +316,7 @@
             this.button21.Location = new System.Drawing.Point(0, 948);
             this.button21.Name = "button21";
             this.button21.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button21.Size = new System.Drawing.Size(259, 55);
+            this.button21.Size = new System.Drawing.Size(229, 55);
             this.button21.TabIndex = 12;
             this.button21.Text = "المستخدمين";
             this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -333,7 +333,7 @@
             this.button20.Location = new System.Drawing.Point(0, 893);
             this.button20.Name = "button20";
             this.button20.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.button20.Size = new System.Drawing.Size(259, 55);
+            this.button20.Size = new System.Drawing.Size(229, 55);
             this.button20.TabIndex = 11;
             this.button20.Text = "المكتبة الالكترونية";
             this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -352,7 +352,7 @@
             this.button19.Location = new System.Drawing.Point(0, 838);
             this.button19.Name = "button19";
             this.button19.Padding = new System.Windows.Forms.Padding(23, 0, 10, 0);
-            this.button19.Size = new System.Drawing.Size(259, 55);
+            this.button19.Size = new System.Drawing.Size(229, 55);
             this.button19.TabIndex = 10;
             this.button19.Text = "الحجوزات";
             this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -367,7 +367,7 @@
             this.p_std_vistor.Dock = System.Windows.Forms.DockStyle.Top;
             this.p_std_vistor.Location = new System.Drawing.Point(0, 738);
             this.p_std_vistor.Name = "p_std_vistor";
-            this.p_std_vistor.Size = new System.Drawing.Size(259, 100);
+            this.p_std_vistor.Size = new System.Drawing.Size(229, 100);
             this.p_std_vistor.TabIndex = 9;
             this.p_std_vistor.Visible = false;
             // 
@@ -384,7 +384,7 @@
             this.button17.Location = new System.Drawing.Point(0, 50);
             this.button17.Name = "button17";
             this.button17.Padding = new System.Windows.Forms.Padding(23, 0, 35, 0);
-            this.button17.Size = new System.Drawing.Size(259, 50);
+            this.button17.Size = new System.Drawing.Size(229, 50);
             this.button17.TabIndex = 5;
             this.button17.Text = "الزائرين";
             this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -404,7 +404,7 @@
             this.button18.Location = new System.Drawing.Point(0, 0);
             this.button18.Name = "button18";
             this.button18.Padding = new System.Windows.Forms.Padding(23, 0, 35, 0);
-            this.button18.Size = new System.Drawing.Size(259, 50);
+            this.button18.Size = new System.Drawing.Size(229, 50);
             this.button18.TabIndex = 4;
             this.button18.Text = "الطلاب";
             this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -421,7 +421,7 @@
             this.button16.Location = new System.Drawing.Point(0, 683);
             this.button16.Name = "button16";
             this.button16.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.button16.Size = new System.Drawing.Size(259, 55);
+            this.button16.Size = new System.Drawing.Size(229, 55);
             this.button16.TabIndex = 8;
             this.button16.Text = "<  الطلاب والزائرين";
             this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -440,7 +440,7 @@
             this.button15.Location = new System.Drawing.Point(0, 628);
             this.button15.Name = "button15";
             this.button15.Padding = new System.Windows.Forms.Padding(22, 0, 10, 0);
-            this.button15.Size = new System.Drawing.Size(259, 55);
+            this.button15.Size = new System.Drawing.Size(229, 55);
             this.button15.TabIndex = 7;
             this.button15.Text = "الزيارات";
             this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -455,7 +455,7 @@
             this.p_borr_return.Dock = System.Windows.Forms.DockStyle.Top;
             this.p_borr_return.Location = new System.Drawing.Point(0, 528);
             this.p_borr_return.Name = "p_borr_return";
-            this.p_borr_return.Size = new System.Drawing.Size(259, 100);
+            this.p_borr_return.Size = new System.Drawing.Size(229, 100);
             this.p_borr_return.TabIndex = 6;
             this.p_borr_return.Visible = false;
             // 
@@ -472,7 +472,7 @@
             this.button14.Location = new System.Drawing.Point(0, 50);
             this.button14.Name = "button14";
             this.button14.Padding = new System.Windows.Forms.Padding(13, 0, 35, 0);
-            this.button14.Size = new System.Drawing.Size(259, 50);
+            this.button14.Size = new System.Drawing.Size(229, 50);
             this.button14.TabIndex = 5;
             this.button14.Text = "الاعارات";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -492,7 +492,7 @@
             this.button13.Location = new System.Drawing.Point(0, 0);
             this.button13.Name = "button13";
             this.button13.Padding = new System.Windows.Forms.Padding(20, 0, 35, 0);
-            this.button13.Size = new System.Drawing.Size(259, 50);
+            this.button13.Size = new System.Drawing.Size(229, 50);
             this.button13.TabIndex = 4;
             this.button13.Text = "المرجوعات";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -509,7 +509,7 @@
             this.button7.Location = new System.Drawing.Point(0, 473);
             this.button7.Name = "button7";
             this.button7.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.button7.Size = new System.Drawing.Size(259, 55);
+            this.button7.Size = new System.Drawing.Size(229, 55);
             this.button7.TabIndex = 5;
             this.button7.Text = "<  المرجوعات والاعارات";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -528,7 +528,7 @@
             this.button6.Location = new System.Drawing.Point(0, 418);
             this.button6.Name = "button6";
             this.button6.Padding = new System.Windows.Forms.Padding(13, 0, 10, 0);
-            this.button6.Size = new System.Drawing.Size(259, 55);
+            this.button6.Size = new System.Drawing.Size(229, 55);
             this.button6.TabIndex = 4;
             this.button6.Text = "المقتنيات";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -543,7 +543,7 @@
             this.p_dept_shelf.Dock = System.Windows.Forms.DockStyle.Top;
             this.p_dept_shelf.Location = new System.Drawing.Point(0, 318);
             this.p_dept_shelf.Name = "p_dept_shelf";
-            this.p_dept_shelf.Size = new System.Drawing.Size(259, 100);
+            this.p_dept_shelf.Size = new System.Drawing.Size(229, 100);
             this.p_dept_shelf.TabIndex = 3;
             this.p_dept_shelf.Visible = false;
             // 
@@ -560,7 +560,7 @@
             this.button5.Location = new System.Drawing.Point(0, 50);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(23, 0, 35, 0);
-            this.button5.Size = new System.Drawing.Size(259, 50);
+            this.button5.Size = new System.Drawing.Size(229, 50);
             this.button5.TabIndex = 4;
             this.button5.Text = "الرفوف";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -580,7 +580,7 @@
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
             this.button4.Padding = new System.Windows.Forms.Padding(23, 0, 35, 0);
-            this.button4.Size = new System.Drawing.Size(259, 50);
+            this.button4.Size = new System.Drawing.Size(229, 50);
             this.button4.TabIndex = 3;
             this.button4.Text = "الأقسام ";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -597,7 +597,7 @@
             this.button3.Location = new System.Drawing.Point(0, 263);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
-            this.button3.Size = new System.Drawing.Size(259, 55);
+            this.button3.Size = new System.Drawing.Size(229, 55);
             this.button3.TabIndex = 2;
             this.button3.Text = "<  الأقسام والرفوف";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -616,7 +616,7 @@
             this.button2.Location = new System.Drawing.Point(0, 208);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.button2.Size = new System.Drawing.Size(259, 55);
+            this.button2.Size = new System.Drawing.Size(229, 55);
             this.button2.TabIndex = 1;
             this.button2.Text = "الرئيسية";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -634,7 +634,7 @@
             this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(259, 208);
+            this.panel9.Size = new System.Drawing.Size(229, 208);
             this.panel9.TabIndex = 0;
             // 
             // pictureBox1
@@ -642,7 +642,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox1.Image = global::LibM.Properties.Resources.user_filled_40px;
-            this.pictureBox1.Location = new System.Drawing.Point(81, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(51, 22);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(130, 97);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -702,7 +702,7 @@
             this.P_Container.Location = new System.Drawing.Point(0, 60);
             this.P_Container.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.P_Container.Name = "P_Container";
-            this.P_Container.Size = new System.Drawing.Size(931, 769);
+            this.P_Container.Size = new System.Drawing.Size(961, 769);
             this.P_Container.TabIndex = 2;
             // 
             // P_Main
@@ -715,7 +715,7 @@
             this.P_Main.Location = new System.Drawing.Point(0, 0);
             this.P_Main.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.P_Main.Name = "P_Main";
-            this.P_Main.Size = new System.Drawing.Size(931, 769);
+            this.P_Main.Size = new System.Drawing.Size(961, 769);
             this.P_Main.TabIndex = 1;
             // 
             // dataGridView1
@@ -724,38 +724,38 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuTransition1.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.GridColor = System.Drawing.Color.DimGray;
             this.dataGridView1.Location = new System.Drawing.Point(0, 84);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("beIN Normal ", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowTemplate.Height = 35;
-            this.dataGridView1.Size = new System.Drawing.Size(931, 599);
+            this.dataGridView1.Size = new System.Drawing.Size(961, 599);
             this.dataGridView1.TabIndex = 3;
             // 
             // panel7
@@ -766,7 +766,7 @@
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(931, 84);
+            this.panel7.Size = new System.Drawing.Size(961, 84);
             this.panel7.TabIndex = 0;
             // 
             // txt_serach
@@ -783,7 +783,7 @@
             this.txt_serach.LineIdleColor = System.Drawing.Color.Gray;
             this.txt_serach.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.txt_serach.LineThickness = 4;
-            this.txt_serach.Location = new System.Drawing.Point(285, 9);
+            this.txt_serach.Location = new System.Drawing.Point(300, 9);
             this.txt_serach.Margin = new System.Windows.Forms.Padding(6, 10, 6, 10);
             this.txt_serach.Name = "txt_serach";
             this.txt_serach.Size = new System.Drawing.Size(361, 66);
@@ -802,7 +802,7 @@
             this.panel8.Location = new System.Drawing.Point(0, 683);
             this.panel8.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(931, 86);
+            this.panel8.Size = new System.Drawing.Size(961, 86);
             this.panel8.TabIndex = 1;
             // 
             // bunifuThinButton24
@@ -825,7 +825,7 @@
             this.bunifuThinButton24.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton24.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton24.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton24.Location = new System.Drawing.Point(25, 6);
+            this.bunifuThinButton24.Location = new System.Drawing.Point(40, 6);
             this.bunifuThinButton24.Margin = new System.Windows.Forms.Padding(6, 10, 6, 10);
             this.bunifuThinButton24.Name = "bunifuThinButton24";
             this.bunifuThinButton24.Size = new System.Drawing.Size(201, 75);
@@ -853,7 +853,7 @@
             this.bunifuThinButton23.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton23.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton23.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton23.Location = new System.Drawing.Point(259, 6);
+            this.bunifuThinButton23.Location = new System.Drawing.Point(274, 6);
             this.bunifuThinButton23.Margin = new System.Windows.Forms.Padding(6, 10, 6, 10);
             this.bunifuThinButton23.Name = "bunifuThinButton23";
             this.bunifuThinButton23.Size = new System.Drawing.Size(201, 75);
@@ -881,7 +881,7 @@
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(494, 6);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(509, 6);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(6, 10, 6, 10);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
             this.bunifuThinButton22.Size = new System.Drawing.Size(201, 75);
@@ -909,7 +909,7 @@
             this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(724, 6);
+            this.bunifuThinButton21.Location = new System.Drawing.Point(739, 6);
             this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(6, 10, 6, 10);
             this.bunifuThinButton21.Name = "bunifuThinButton21";
             this.bunifuThinButton21.Size = new System.Drawing.Size(201, 75);
@@ -936,7 +936,7 @@
             this.P_HOME.Location = new System.Drawing.Point(0, 0);
             this.P_HOME.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.P_HOME.Name = "P_HOME";
-            this.P_HOME.Size = new System.Drawing.Size(931, 769);
+            this.P_HOME.Size = new System.Drawing.Size(961, 769);
             this.P_HOME.TabIndex = 4;
             this.P_HOME.Paint += new System.Windows.Forms.PaintEventHandler(this.P_HOME_Paint);
             // 
@@ -951,7 +951,7 @@
             this.button22.ForeColor = System.Drawing.Color.White;
             this.button22.Image = global::LibM.Properties.Resources.add_64px;
             this.button22.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button22.Location = new System.Drawing.Point(93, 588);
+            this.button22.Location = new System.Drawing.Point(108, 588);
             this.button22.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(113, 149);
@@ -967,7 +967,7 @@
             this.panel6.Controls.Add(this.lb_user);
             this.panel6.Controls.Add(this.label13);
             this.bunifuTransition1.SetDecoration(this.panel6, BunifuAnimatorNS.DecorationType.None);
-            this.panel6.Location = new System.Drawing.Point(581, 289);
+            this.panel6.Location = new System.Drawing.Point(596, 289);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(172, 166);
@@ -1007,7 +1007,7 @@
             this.panel3.Controls.Add(this.lb_sell);
             this.panel3.Controls.Add(this.label7);
             this.bunifuTransition1.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Location = new System.Drawing.Point(581, 87);
+            this.panel3.Location = new System.Drawing.Point(596, 87);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(172, 166);
@@ -1047,7 +1047,7 @@
             this.panel5.Controls.Add(this.lb_cat);
             this.panel5.Controls.Add(this.label11);
             this.bunifuTransition1.SetDecoration(this.panel5, BunifuAnimatorNS.DecorationType.None);
-            this.panel5.Location = new System.Drawing.Point(379, 289);
+            this.panel5.Location = new System.Drawing.Point(394, 289);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(172, 166);
@@ -1087,7 +1087,7 @@
             this.panel2.Controls.Add(this.lb_studnt);
             this.panel2.Controls.Add(this.label5);
             this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            this.panel2.Location = new System.Drawing.Point(379, 87);
+            this.panel2.Location = new System.Drawing.Point(394, 87);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(172, 166);
@@ -1127,7 +1127,7 @@
             this.panel4.Controls.Add(this.lb_bor);
             this.panel4.Controls.Add(this.label9);
             this.bunifuTransition1.SetDecoration(this.panel4, BunifuAnimatorNS.DecorationType.None);
-            this.panel4.Location = new System.Drawing.Point(178, 289);
+            this.panel4.Location = new System.Drawing.Point(193, 289);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(172, 166);
@@ -1167,7 +1167,7 @@
             this.panel1.Controls.Add(this.lb_books);
             this.panel1.Controls.Add(this.label2);
             this.bunifuTransition1.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Location = new System.Drawing.Point(178, 87);
+            this.panel1.Location = new System.Drawing.Point(193, 87);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(172, 166);
@@ -1211,7 +1211,7 @@
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Image = global::LibM.Properties.Resources.add_64px;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.Location = new System.Drawing.Point(221, 588);
+            this.button12.Location = new System.Drawing.Point(236, 588);
             this.button12.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(113, 149);
@@ -1232,7 +1232,7 @@
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Image = global::LibM.Properties.Resources.add_64px;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button11.Location = new System.Drawing.Point(347, 588);
+            this.button11.Location = new System.Drawing.Point(362, 588);
             this.button11.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(113, 149);
@@ -1253,7 +1253,7 @@
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Image = global::LibM.Properties.Resources.add_64px;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.Location = new System.Drawing.Point(473, 588);
+            this.button10.Location = new System.Drawing.Point(488, 588);
             this.button10.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(113, 149);
@@ -1274,7 +1274,7 @@
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Image = global::LibM.Properties.Resources.add_64px;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.Location = new System.Drawing.Point(598, 588);
+            this.button9.Location = new System.Drawing.Point(613, 588);
             this.button9.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(113, 149);
@@ -1295,7 +1295,7 @@
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Image = global::LibM.Properties.Resources.add_64px;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.Location = new System.Drawing.Point(724, 588);
+            this.button8.Location = new System.Drawing.Point(739, 588);
             this.button8.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(113, 149);
@@ -1309,22 +1309,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.Scale;
             this.bunifuTransition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation2;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
             this.bunifuTransition1.Interval = 3;
             // 
             // FRM_MIAN
