@@ -102,6 +102,12 @@
     <Compile Include="PL\FRM_ADD_DEPT.Designer.cs">
       <DependentUpon>FRM_ADD_DEPT.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\FRM_ADD_INDETITY_CARD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_ADD_INDETITY_CARD.Designer.cs">
+      <DependentUpon>FRM_ADD_INDETITY_CARD.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\FRM_ADD_RETURN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -204,11 +210,23 @@
     <Compile Include="PL\FRM_START.Designer.cs">
       <DependentUpon>FRM_START.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\FRM_STD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_STD.Designer.cs">
+      <DependentUpon>FRM_STD.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\FRM_VISITing.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\FRM_VISITing.Designer.cs">
       <DependentUpon>FRM_VISITing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FRM_VISITOR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FRM_VISITOR.Designer.cs">
+      <DependentUpon>FRM_VISITOR.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -226,6 +244,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\FRM_ADD_DEPT.resx">
       <DependentUpon>FRM_ADD_DEPT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_ADD_INDETITY_CARD.resx">
+      <DependentUpon>FRM_ADD_INDETITY_CARD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\FRM_ADD_RETURN.resx">
       <DependentUpon>FRM_ADD_RETURN.cs</DependentUpon>
@@ -278,8 +299,14 @@
     <EmbeddedResource Include="PL\FRM_START.resx">
       <DependentUpon>FRM_START.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_STD.resx">
+      <DependentUpon>FRM_STD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\FRM_VISITing.resx">
       <DependentUpon>FRM_VISITing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FRM_VISITOR.resx">
+      <DependentUpon>FRM_VISITOR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

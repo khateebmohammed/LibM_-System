@@ -38,8 +38,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnadd = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -49,6 +47,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnadd = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
@@ -173,45 +173,6 @@
             this.label4.TabIndex = 48;
             this.label4.Text = " مستخدم النظام";
             // 
-            // btnadd
-            // 
-            this.btnadd.ActiveBorderThickness = 1;
-            this.btnadd.ActiveCornerRadius = 20;
-            this.btnadd.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.ActiveForecolor = System.Drawing.Color.White;
-            this.btnadd.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnadd.BackColor = System.Drawing.Color.White;
-            this.btnadd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnadd.BackgroundImage")));
-            this.btnadd.ButtonText = "اضافة";
-            this.btnadd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnadd.Font = new System.Drawing.Font("beIN Black ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnadd.ForeColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.IdleBorderThickness = 1;
-            this.btnadd.IdleCornerRadius = 25;
-            this.btnadd.IdleFillColor = System.Drawing.Color.White;
-            this.btnadd.IdleForecolor = System.Drawing.Color.SeaGreen;
-            this.btnadd.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btnadd.Location = new System.Drawing.Point(273, 450);
-            this.btnadd.Margin = new System.Windows.Forms.Padding(6, 11, 6, 11);
-            this.btnadd.Name = "btnadd";
-            this.btnadd.Size = new System.Drawing.Size(354, 65);
-            this.btnadd.TabIndex = 60;
-            this.btnadd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Image = global::LibM.Properties.Resources.delete_sign_64px;
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(6, 12);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(40, 40);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 45;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 10;
-            // 
             // comboBox4
             // 
             this.comboBox4.Font = new System.Drawing.Font("beIN Normal ", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -317,6 +278,45 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(257, 40);
             this.textBox1.TabIndex = 68;
+            // 
+            // btnadd
+            // 
+            this.btnadd.ActiveBorderThickness = 1;
+            this.btnadd.ActiveCornerRadius = 20;
+            this.btnadd.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.ActiveForecolor = System.Drawing.Color.White;
+            this.btnadd.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnadd.BackColor = System.Drawing.Color.White;
+            this.btnadd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnadd.BackgroundImage")));
+            this.btnadd.ButtonText = "اضافة";
+            this.btnadd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnadd.Font = new System.Drawing.Font("beIN Black ", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnadd.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.IdleBorderThickness = 1;
+            this.btnadd.IdleCornerRadius = 25;
+            this.btnadd.IdleFillColor = System.Drawing.Color.White;
+            this.btnadd.IdleForecolor = System.Drawing.Color.SeaGreen;
+            this.btnadd.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btnadd.Location = new System.Drawing.Point(273, 450);
+            this.btnadd.Margin = new System.Windows.Forms.Padding(6, 11, 6, 11);
+            this.btnadd.Name = "btnadd";
+            this.btnadd.Size = new System.Drawing.Size(354, 65);
+            this.btnadd.TabIndex = 60;
+            this.btnadd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Image = global::LibM.Properties.Resources.delete_sign_64px;
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(6, 12);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(40, 40);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 45;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
             // 
             // FRM_ADD_BOOKing
             // 
